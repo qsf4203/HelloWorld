@@ -1,0 +1,7 @@
+var abi = [{"inputs": [{"name": "_greeting","type": "string"}],"payable": false,"stateMutability": "nonpayable","type": "constructor"},{"constant": true,"inputs": [],"name": "greet","outputs": [{"name": "","type": "string"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": false,"inputs": [{"name": "_newgreeting","type": "string"}],"name": "setGreeting","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"},{"constant": false,"inputs": [],"name": "kill","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"}];
+作笔名哥
+接https://www.jianshu.com/p/2e2b3b12eb0e
+來源简书
+var abi = [{"inputs": [{"name": "_greeting","type": "string"}],"payable": false,"stateMutability": "nonpayable","type": "constructor"},{"constant": true,"inputs": [],"name": "greet","outputs": [{"name": "","type": "string"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": false,"inputs": [{"name": "_newgreeting","type": "string"}],"name": "setGreeting","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"},{"constant": false,"inputs": [],"name": "kill","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"}];
+var HelloWorld = eth.contract(abi).at('0xcaa8d796dad123486a753cb96b77c51412ca4f6e')
+HelloWorld.greet()
